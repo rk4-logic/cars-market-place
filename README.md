@@ -1,14 +1,17 @@
-Car Search
+**Car Search**
+
 A simple car search app with price filtering and AI-powered results.
 
-Features
+**Features**
+
 Search cars by make, model, or natural language
 
 Filter results by price range
 
 View car details and click to see more
 
-Tech
+**Tech**
+
 Next.js
 
 React
@@ -23,14 +26,8 @@ AI service Tool
 
 Prisma
 
-How to Run
-Install dependencies:
+**How to Run**
 
-bash
-npm install
+**Install dependencies:**
 Start the app:
-
-bash
-npm run dev
-Open http://localhost:3000
-
+Open http://localhost:3000 in your browser

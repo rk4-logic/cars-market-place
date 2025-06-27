@@ -2,6 +2,9 @@ import { aiService } from "@/lib/ai";
 import { NextResponse } from "next/server";
 import { getCarById } from "@/lib/actions/cars-action";
 
+export const dynamic = 'force-dynamic';
+
+
 export async function POST(request: Request) {
   try {
     const { query } = await request.json();
